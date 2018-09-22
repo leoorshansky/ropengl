@@ -9,11 +9,13 @@ Well, how else will we be able to port Minecraft to R? It's been far too long aw
 
 To install binaries (located in binaries/), just launch R and use this command:
 
-install.packages("<filename>", repos = NULL)
+`install.packages("<filename>", repos = NULL)`
 
 to install from source, first install devtools:
 
-install.packages("devtools")
-library(devtools)
+```
+>install.packages("devtools")
+>library(devtools)
+```
 
 and then use load_all("ropengl")
