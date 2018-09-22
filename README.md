@@ -14,8 +14,8 @@ To install binaries (located in binaries/), just launch R and use this command:
 to install from source, first install devtools:
 
 ```
->install.packages("devtools")
->library(devtools)
+install.packages("devtools")
+library(devtools)
 ```
 
 and then use load_all("ropengl")
