@@ -1,0 +1,16 @@
+Package: ropengl
+Title: OpenGL Bindings for R
+Version: 0.1.0
+Authors@R: person("First", "Last", email = "leoorshansky@gmail.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.2.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+LinkingTo: Rcpp
+Imports: Rcpp
+RoxygenNote: 6.1.0
+NeedsCompilation: yes
+Packaged: 2018-09-02 16:38:17 UTC; root
+Author: First Last [aut, cre]
+Maintainer: Leo Orshansky <leoorshansky@gmail.com>

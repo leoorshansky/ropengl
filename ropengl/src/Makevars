@@ -1,0 +1,6 @@
+ifeq ($(OS), Windows_NT)
+		PKG_CPPFLAGS = -std=c++11 -I"C:/Rtools/mingw_64/include"
+    PKG_LIBS = -lglfw3 -lopengl32 -lgdi32
+else
+    PKG_LIBS = -lGLU -lGL -lglut
+endif
